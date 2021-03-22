@@ -1,2 +1,2 @@
 # chatbox-streamlabs
- Customized chatbot for twitch channels on StreamLabs
+ Chatbot customizado para Twitch no StreamLabs
