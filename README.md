@@ -1,2 +1,5 @@
 # chatbox-streamlabs
- Chatbot customizado para Twitch no StreamLabs
+ Chatbox customizado para Twitch no StreamLabs
+
+Exemplo do chatbox abaixo:
+<img src='./exemploChat.png'></img>
