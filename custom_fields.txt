@@ -1,0 +1,4 @@
+Chat Message background color: #CECECE;
+Show badges next to usernames? Yes;
+Name background color: #FF8600;
+Name color: #000000;
