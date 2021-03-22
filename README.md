@@ -14,9 +14,9 @@ Ali deverão ser inseridos os códigos disponíveis nos seguintes arquivos:
     <li>css.css</li>
     <li>js.js</li>
 </ul>
-E por fim você pode mais configurações no <i>Custom Fiels</i>. </br></br>
+E por fim você pode inserir mais configurações no <i>Custom Fiels</i>. </br></br>
 
 Exemplo do chat box abaixo: </br>
 <img src='./img/exemploChat.png'></img> </br></br>
 
-### Já aproveita e segue lá na twitch: <a href="https://www.twitch.tv/thecenoura">thecenoura</a>
+### Já aproveita e segue lá na twitch: <a href="https://www.twitch.tv/thecenoura">thecenoura</a>. Valeu!
