@@ -1,0 +1,10 @@
+Theme: Twitch;
+Checked badges: All;
+Checked extra emtoes; All;
+Background Color: #000000;
+Text Color: #FAFAFA;
+Font-Size: 20px;
+Hide Message After: 10s;
+Chat Delay: 0s;
+Checked Hide Chatters: All;
+Enable Custom HTML/CSS? Yes!
