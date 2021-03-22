@@ -1,0 +1,128 @@
+@import url('https://fonts.googleapis.com/css2?family=Patrick+Hand&display=swap');
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+html,
+body {
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+}
+#log {
+  font: {font_size} sans-serif;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  color: {text_color};
+}
+#log > div {
+  -webkit-animation: fadeOut 1s ease {message_hide_delay} forwards;
+          animation: fadeOut 1s ease {message_hide_delay} forwards;
+  word-wrap: break-word;
+}
+#log > div.deleted {
+  visibility: hidden;
+}
+#log .emote {
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+  position: relative;
+}
+#log .emote > img {
+  display: inline-block;
+  height: 1.2em;
+  opacity: 0;
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html,
+body {
+  height: 100%;
+  overflow: hidden;
+}
+#wrapper {
+  height: 100%;
+  overflow: hidden;
+  position: relative;
+  text-transform: uppercase;
+  margin: 0 auto;
+}
+#log {
+  overflow: hidden;
+  line-height: 1.53em;
+  font-family: "Patrick Hand", sans-serif;
+  font-weight: bold;
+}
+#log > div {
+  -webkit-animation: fadeInUp 500ms ease, fadeOutUp 1s ease {message_hide_delay} forwards;
+          animation: fadeInUp 500ms ease, fadeOutUp 1s ease {message_hide_delay} forwards;
+  padding: 0.5em;
+  position: relative;
+}
+#log > div + div {
+  margin-top: 0.5em;
+}
+.background {
+  position: absolute;
+  top: 1.2em;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background: {backgroundColor};
+  opacity: 0.1;
+  border-radius: 20px;
+}
+.chat-entry {
+  position: relative;
+  z-index: 1;
+}
+.chat-entry .meta {
+  position: relative;
+}
+.chat-entry .meta::before {
+  content: '';
+  position: absolute;
+  top: -0.1em;
+  right: -0.1em;
+  bottom: -0.1em;
+  left: -0.1em;
+  background: {nameBackgroundColor};
+  opacity: 1;
+  border-radius: 6px;
+  margin-left: -40px;
+}
+.chat-entry .meta > span {
+  position: relative;
+  z-index: 1;
+}
+.message {
+  color: {text_color};
+  font-weight: normal;
+  word-wrap: break-word;
+  margin-left: 0.4em;
+}
+.name {
+  color: {nameColor};
+  font-weight: 500;
+}
+.name::after {
+  content: ': ';
+}
+.badges {
+  margin-right: 0.2em;
+}
+.badges .badge {
+  margin-left: 0.15em;
+  height: 0.8em;
+  width: 0.8em;
+}
+.no-badges .badges {
+  display: none;
+}
