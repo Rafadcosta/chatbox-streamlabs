@@ -17,4 +17,6 @@ Ali deverão ser inseridos os códigos disponíveis nos seguintes arquivos:
 E por fim você pode mais configurações no <i>Custom Fiels</i>. </br></br>
 
 Exemplo do chat box abaixo: </br>
-<img src='./img/exemploChat.png'></img>
+<img src='./img/exemploChat.png'></img> </br></br>
+
+### Já aproveita e segue lá na twitch: <a href="https://www.twitch.tv/thecenoura">thecenoura</a> 
